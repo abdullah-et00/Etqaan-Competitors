@@ -1,0 +1,26 @@
+# Logs
+et-competitors-frontend/logs
+et-competitors-frontend/*.log
+et-competitors-frontend/npm-debug.log*
+et-competitors-frontend/yarn-debug.log*
+et-competitors-frontend/yarn-error.log*
+et-competitors-frontend/pnpm-debug.log*
+et-competitors-frontend/lerna-debug.log*
+et-competitors-frontend/dist-ssr
+et-competitors-frontend/*.local
+.vscode/*
+!.vscode/extensions.json
+et-competitors-frontend/.idea
+et-competitors-frontend/.DS_Store
+et-competitors-frontend/*.suo
+et-competitors-frontend/*.ntvs*
+et-competitors-frontend/*.njsproj
+et-competitors-frontend/*.sln
+et-competitors-frontend/*.sw?
+et-competitors-frontend/node_modules/
+et-competitors-backend/node_modules/
+et-competitors-frontend/dist/
+et-competitors-backend/dist/
+et-competitors-frontend/. env/
+et-competitors-backend/. env/
+et-competitors-frontend/. next/

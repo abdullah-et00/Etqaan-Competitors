@@ -1,0 +1,118 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model companies{
+  id String @id @default(uuid())
+  name String 
+  description String @db.LongText
+  logo String?
+
+  posts posts[]
+  socialMediaAccounts social_media_accounts []
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+}
+
+model posts{
+  id String @id @default(uuid())
+  title String @db.MediumText
+  description String @db.LongText
+  coverImage String? 
+  publishDate DateTime
+  postCounts Int @default(1)
+  publisherId String
+  socialMediaAppId String
+  socialMediaAccountId String
+  typeId String
+  subTypeId String
+
+  publisher companies @relation(fields: [publisherId], references: [id])
+  socialMediaApp social_media_apps @relation(fields: [socialMediaAppId],references: [id])
+  scoialMediaAccount social_media_accounts @relation(fields: [socialMediaAccountId],references: [id])
+  types types @relation(fields: [typeId],references: [id])
+  subType sub_types @relation(fields: [subTypeId],references: [id])
+  
+  postsUrls posts_urls[]
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+}
+
+model posts_urls{
+  id String @id @default(uuid())
+
+  postUrl String @db.MediumText
+  postId String
+  socialMediaAppId String
+
+  post posts @relation(fields: [postId],references: [id])
+  socialMediaApp social_media_apps @relation(fields: [socialMediaAppId],references: [id])
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+}
+
+model social_media_apps{
+  id String @id @default(uuid())
+  name String
+  logo String?
+  
+  posts posts[]
+  socialMediaAccounts social_media_accounts[]
+  postsUrls posts_urls[]
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+}
+
+model social_media_accounts{
+  id String @id @default(uuid())
+  profileUrl String
+
+  companyId String
+  socialMediaAppId String
+  
+  posts posts[]
+  companies companies @relation(fields: [companyId],references: [id])
+  socialMediaApps social_media_apps @relation(fields: [socialMediaAppId],references: [id])
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+}
+
+model types{
+  id String @id @default(uuid())
+  name String
+  
+  posts posts[]
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+}
+
+model sub_types{
+  id String @id @default(uuid())
+  name String
+
+  posts posts[]
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+}
+
