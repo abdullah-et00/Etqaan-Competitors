@@ -1,0 +1,14 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"competitors_db"},
+{"type":"table","name":"sub_types","database":"competitors_db","data":
+[
+{"id":"31a3011e-b37e-44fa-b7fa-08df03c0daca","name":"إلكتروني","createdAt":"2024-10-20 11:31:24.250","updatedAt":"2024-10-20 11:31:24.250"},
+{"id":"401ff9b6-0ad6-4d17-b5d4-73218b601809","name":"داخلية","createdAt":"2024-10-20 11:32:22.668","updatedAt":"2024-10-20 11:32:22.668"},
+{"id":"792c13a8-9aee-403c-83e5-8cfba2970b45","name":"خارجية","createdAt":"2024-10-20 11:32:13.051","updatedAt":"2024-10-20 11:32:13.051"},
+{"id":"a01b94ec-c9fb-4564-b630-9177b5a6de4e","name":"بدون","createdAt":"2024-10-20 11:32:32.258","updatedAt":"2024-10-20 11:32:32.258"},
+{"id":"d81f1335-a18a-403d-b23c-a1c1d0470c29","name":"حضوري و إلكتروني","createdAt":"2024-10-20 11:31:34.611","updatedAt":"2024-10-20 11:31:34.611"},
+{"id":"e4865a80-552a-415e-86fb-19d0d38998e0","name":"حضوري","createdAt":"2024-10-20 11:30:09.422","updatedAt":"2024-10-20 11:30:09.422"}
+]
+}
+]

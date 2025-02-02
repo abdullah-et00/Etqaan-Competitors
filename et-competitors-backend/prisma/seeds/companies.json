@@ -1,0 +1,15 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"competitors_db"},
+{"type":"table","name":"companies","database":"competitors_db","data":
+[
+{"id":"0b6e7f45-8816-405b-b45f-96b3a2b169e3","name":"شركة السعدون العقارية","description":"لتنفيذ #المزادات #العقارية - حارس قضائي - تصفية تركات - إدارة املاك ( مرخصون من وزارة العدل - وكيل بيع قضائي ) الرقم الموحد : 920003852","logo":"https:\/\/pbs.twimg.com\/profile_images\/1676496775190925312\/u3dmcKiw_400x400.jpg","createdAt":"2024-10-21 08:48:03.412","updatedAt":"2024-10-21 08:48:03.412"},
+{"id":"0dcec4a1-d45d-4287-80c8-bb0392374d77","name":"كانف للمزادات العقارية","description":"إدارة وتسويق المزادات العقارية وكيل بيع قضائي معتمد من وزارة العدل - مصنف من قبل إنفاذ","logo":"https:\/\/pbs.twimg.com\/profile_images\/1825495523849056256\/XPI-HCMp_400x400.jpg","createdAt":"2024-10-21 08:53:23.799","updatedAt":"2024-10-21 08:53:23.799"},
+{"id":"af41c782-cda6-4df3-96bc-cc92d6508c7d","name":"شركة هوية","description":"نسعى للريادة في التسويق وإدارة المزادات، والعقارات، والحراسة القضائية","logo":"https:\/\/pbs.twimg.com\/profile_images\/1838868506068111360\/qoFX8P5z_400x400.jpg","createdAt":"2024-10-21 08:51:03.999","updatedAt":"2024-10-21 08:51:03.999"},
+{"id":"b046ccb4-362a-429b-adc0-7cd0a005d6ad","name":"إتقان العقارية","description":"17 عامًا من الخبرة و الريادة في المجال العقاري، هدفنا إثراء سوق العقارات في المملكة العربية السعودية. 920001019","logo":"https:\/\/pbs.twimg.com\/profile_images\/1848400988475932675\/OH7lhKUj_400x400.jpg","createdAt":"2024-11-20 09:21:18.077","updatedAt":"2024-11-20 09:21:18.077"},
+{"id":"b8570f07-84fd-4cab-a6db-e8dbbc1b1aa1","name":"سمو العقارية","description":"نسمو بالابتكار والاستدامة في التطوير العقاري وبناء المجتمعات.","logo":"https:\/\/pbs.twimg.com\/profile_images\/1845759604652699653\/Q7q48kqJ_400x400.jpg","createdAt":"2024-10-21 08:35:16.303","updatedAt":"2024-10-21 08:35:16.303"},
+{"id":"c1fc7b13-0cd0-4a09-a247-c3a2eea0ad28","name":"أدير","description":"شركة أدير للتسويق والخدمات العقارية","logo":"https:\/\/pbs.twimg.com\/profile_images\/813671440063090688\/pD_AUVsW_400x400.jpg","createdAt":"2024-10-21 08:43:24.742","updatedAt":"2024-10-21 08:43:24.742"},
+{"id":"fe943a04-0e99-4272-9650-143a0ac91a70","name":"بصمة لإدارة العقارات","description":"الحساب الرسمي لشركة بصمة لإدارة العقارات , بيع ،إدارة ،تسويق العقارات بمختلف أنواعها  في جميع أنحاء المملكة- Bussma Real Estate Company الرقم الموحد : 920002033","logo":"https:\/\/pbs.twimg.com\/profile_images\/1441747637892526082\/fj1ytJDe_400x400.jpg","createdAt":"2024-10-21 08:45:44.936","updatedAt":"2024-10-21 08:45:44.936"}
+]
+}
+]

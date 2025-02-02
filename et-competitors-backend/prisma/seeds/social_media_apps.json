@@ -1,0 +1,16 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"competitors_db"},
+{"type":"table","name":"social_media_apps","database":"competitors_db","data":
+[
+{"id":"2a46c053-0aa7-4475-9a2e-5ec6fe641b3a","name":"linkedin","logo":"https:\/\/blog.waalaxy.com\/wp-content\/uploads\/2021\/01\/4-1.png","createdAt":"2024-11-24 09:11:49.836","updatedAt":"2024-11-24 09:11:49.836"},
+{"id":"45dd6bef-9536-4bd5-8ced-6d24a6c7aa14","name":"واتساب","logo":"https:\/\/img.freepik.com\/premium-vector\/round-whatsapp-logo-isolated-white-background_1281882-1966.jpg?semt=ais_hybrid","createdAt":"2024-10-21 07:48:02.153","updatedAt":"2024-10-21 07:48:02.153"},
+{"id":"8c034855-bb5c-4654-b03d-85f58891a434","name":"انستغرام","logo":"https:\/\/img.freepik.com\/free-vector\/instagram-icon_1057-2227.jpg?ga=GA1.2.1237838910.1716211319&semt=ais_hybrid","createdAt":"2024-10-21 07:48:25.772","updatedAt":"2024-10-21 07:48:25.772"},
+{"id":"95edc7c8-cf1e-4f53-854c-517a1c8372e1","name":"X","logo":"https:\/\/img.freepik.com\/premium-vector\/new-twitter-x-logo-vector-twitter-x-sign-vector_952796-6.jpg","createdAt":"2024-10-21 07:48:53.075","updatedAt":"2024-10-21 07:48:53.075"},
+{"id":"a7c23612-8903-45cf-9d5e-9e60a55b8b84","name":"موقع إلكتروني","logo":"https:\/\/img.freepik.com\/free-vector\/www-internet-globe-grid_78370-2008.jpg","createdAt":"2024-10-21 07:53:00.781","updatedAt":"2024-10-21 07:53:00.781"},
+{"id":"ad7d437c-7c98-4ee0-b14d-f45f5e36abf6","name":"سناب شات","logo":"https:\/\/images.ctfassets.net\/o1znirz7lzo4\/2CMqVENwE9LdAjxl9sTigl\/e4177ff165e81371210862ffb6446b1c\/Ghost.png","createdAt":"2024-10-21 07:51:53.448","updatedAt":"2024-10-21 07:51:53.448"},
+{"id":"c0da6212-f8ed-48e1-92fe-5a115a95c992","name":"YouTube","logo":"https:\/\/static-00.iconduck.com\/assets.00\/youtube-icon-2048x2048-oa03jx3h.png","createdAt":"2024-10-21 07:48:46.810","updatedAt":"2024-10-21 07:48:46.810"},
+{"id":"cd237d2e-6f65-4e9f-bfd0-2b2325712511","name":"فيسبوك","logo":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSDy_BNkPSR9l2X5I074rtb6j-z-i2Iz2yblw&s","createdAt":"2024-10-21 07:30:28.706","updatedAt":"2024-10-21 07:30:28.706"}
+]
+}
+]

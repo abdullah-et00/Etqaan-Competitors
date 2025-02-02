@@ -1,0 +1,11 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"competitors_db"},
+{"type":"table","name":"types","database":"competitors_db","data":
+[
+{"id":"1ecc6009-b804-42b1-b7d9-01048e1895dd","name":"مشاريع","createdAt":"2024-10-20 09:14:45.470","updatedAt":"2024-10-20 09:14:45.470"},
+{"id":"70364cba-d825-47a2-a85c-7fa246c6c2b1","name":"مناسبات عامة","createdAt":"2024-10-20 10:58:49.439","updatedAt":"2024-10-20 10:58:49.439"},
+{"id":"9040ca1d-3e91-494c-be87-c1f7f2701042","name":"فعالية داخلية","createdAt":"2024-10-20 09:15:25.947","updatedAt":"2024-10-20 09:15:25.947"}
+]
+}
+]
