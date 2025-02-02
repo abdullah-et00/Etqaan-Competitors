@@ -48,6 +48,11 @@ async function main() {
       continue;
     }
 
+    const cdate= new Date(jsonData.createdAt)
+    const udate= new Date(jsonData.updatedAt)
+    jsonData.createdAt= cdate
+    jsonData.updatedAt= udate
+
     for (const data of jsonData) {
       await model.create({
         data,
