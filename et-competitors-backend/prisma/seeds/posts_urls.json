@@ -1,8 +1,4 @@
 [
-{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
-{"type":"database","name":"competitors_db"},
-{"type":"table","name":"posts_urls","database":"competitors_db","data":
-[
 {"id":"00585495-3b4a-4be0-928c-6eb5f44c5728","postUrl":"https:\/\/x.com\/SumouRE\/status\/1176183082887581701","postId":"81f3ffa0-08d1-4a31-ad74-d3af8af84e52","socialMediaAppId":"95edc7c8-cf1e-4f53-854c-517a1c8372e1","createdAt":"2024-11-23 07:28:26.751","updatedAt":"2024-11-23 07:28:26.751"},
 {"id":"0067fa81-46a1-4d0c-b456-eb55c2dbb1ad","postUrl":"https:\/\/x.com\/SumouRE\/status\/1788507815549530166","postId":"7823cb7e-2216-4d95-9509-bd9adfa69514","socialMediaAppId":"95edc7c8-cf1e-4f53-854c-517a1c8372e1","createdAt":"2024-11-23 07:28:26.750","updatedAt":"2024-11-23 07:28:26.750"},
 {"id":"01b26005-181f-4881-957d-50727215d9b7","postUrl":"https:\/\/x.com\/SumouSociety\/status\/1803079248665526341","postId":"a5da4796-1a1b-44a7-8372-93bff96c48dc","socialMediaAppId":"95edc7c8-cf1e-4f53-854c-517a1c8372e1","createdAt":"2024-12-07 08:58:03.685","updatedAt":"2024-12-07 08:58:03.685"},
@@ -699,6 +695,4 @@
 {"id":"fd84799b-8ae4-4312-8436-ea533dbb5d7c","postUrl":"https:\/\/x.com\/hawyia_co\/status\/1777395876492689895","postId":"253a035f-9359-49fd-b2ec-c42098d84c7a","socialMediaAppId":"95edc7c8-cf1e-4f53-854c-517a1c8372e1","createdAt":"2024-11-26 09:09:49.454","updatedAt":"2024-11-26 09:09:49.454"},
 {"id":"fda8011c-1359-4786-803b-1e3ee4b486c6","postUrl":"https:\/\/x.com\/srsc22\/status\/1744385642438520992","postId":"865039ce-d731-40f5-917c-5b05f55a6ad9","socialMediaAppId":"95edc7c8-cf1e-4f53-854c-517a1c8372e1","createdAt":"2024-11-23 07:28:26.751","updatedAt":"2024-11-23 07:28:26.751"},
 {"id":"fdd68cfd-82ba-4dd9-a78a-1bcea7bc888b","postUrl":"https:\/\/x.com\/bussma_ad\/status\/1739586656066261087","postId":"e64baeaf-8363-4c13-adf7-a9dc78efa447","socialMediaAppId":"95edc7c8-cf1e-4f53-854c-517a1c8372e1","createdAt":"2024-12-03 07:39:48.198","updatedAt":"2024-12-03 07:39:48.198"}
-]
-}
 ]

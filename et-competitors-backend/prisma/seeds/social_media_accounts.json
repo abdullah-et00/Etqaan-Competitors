@@ -1,8 +1,4 @@
 [
-{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
-{"type":"database","name":"competitors_db"},
-{"type":"table","name":"social_media_accounts","database":"competitors_db","data":
-[
 {"id":"046dbe77-9132-45d3-a806-b8227dc2567c","profileUrl":"https:\/\/x.com\/etqaan_sa","companyId":"b046ccb4-362a-429b-adc0-7cd0a005d6ad","socialMediaAppId":"95edc7c8-cf1e-4f53-854c-517a1c8372e1","createdAt":"2024-11-20 09:26:28.659","updatedAt":"2024-11-20 09:26:28.659"},
 {"id":"06e55441-25c0-434e-abcc-f937febc3b20","profileUrl":"https:\/\/sumou.com.sa\/","companyId":"b8570f07-84fd-4cab-a6db-e8dbbc1b1aa1","socialMediaAppId":"a7c23612-8903-45cf-9d5e-9e60a55b8b84","createdAt":"2024-10-21 11:40:31.294","updatedAt":"2024-10-21 11:40:31.294"},
 {"id":"10e88112-053a-499d-b66a-ecbb8223270b","profileUrl":"https:\/\/www.instagram.com\/etqaan.sa1\/?igshid=YmMyMTA2M2Y%3D","companyId":"b046ccb4-362a-429b-adc0-7cd0a005d6ad","socialMediaAppId":"8c034855-bb5c-4654-b03d-85f58891a434","createdAt":"2024-11-24 09:15:14.892","updatedAt":"2024-11-24 09:15:14.892"},
@@ -26,6 +22,4 @@
 {"id":"e5598532-c109-48ae-a7c9-1e1ae1a4bc5d","profileUrl":"https:\/\/canv.com.sa\/","companyId":"0dcec4a1-d45d-4287-80c8-bb0392374d77","socialMediaAppId":"a7c23612-8903-45cf-9d5e-9e60a55b8b84","createdAt":"2024-10-21 11:35:21.072","updatedAt":"2024-10-21 11:35:21.072"},
 {"id":"ec18f07a-181f-49de-b50a-ea64d840c64e","profileUrl":"https:\/\/x.com\/canv_sa","companyId":"0dcec4a1-d45d-4287-80c8-bb0392374d77","socialMediaAppId":"95edc7c8-cf1e-4f53-854c-517a1c8372e1","createdAt":"2024-10-21 11:33:26.976","updatedAt":"2024-10-21 11:33:26.976"},
 {"id":"f8aca3b6-7e86-4ca9-ad04-41d814ddc15a","profileUrl":"https:\/\/etqaan.sa\/","companyId":"b046ccb4-362a-429b-adc0-7cd0a005d6ad","socialMediaAppId":"a7c23612-8903-45cf-9d5e-9e60a55b8b84","createdAt":"2024-11-24 09:03:24.450","updatedAt":"2024-11-24 09:03:24.450"}
-]
-}
 ]
